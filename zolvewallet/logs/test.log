@@ -1,0 +1,21 @@
+"2021-05-10 09:02:52 - Starting ZolvewalletApplication using Java 15.0.2 on LAPTOP-GR6TL54T with PID 16928 (F:\Projects\Java\zolvewallet\target\classes started by Anshul in F:\Projects\Java\zolvewallet)
+""2021-05-10 09:02:52 - No active profile set, falling back to default profiles: default
+""2021-05-10 09:02:53 - Starting service [Tomcat]
+""2021-05-10 09:02:53 - Starting Servlet engine: [Apache Tomcat/9.0.45]
+""2021-05-10 09:02:53 - Initializing Spring embedded WebApplicationContext
+""2021-05-10 09:02:53 - HikariPool-1 - Starting...
+""2021-05-10 09:02:54 - HikariPool-1 - Start completed.
+""2021-05-10 09:02:54 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-05-10 09:02:54 - HHH000412: Hibernate ORM core version 5.4.30.Final
+""2021-05-10 09:02:54 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-05-10 09:02:54 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2021-05-10 09:02:54 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-05-10 09:02:55 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-05-10 09:02:55 - Started ZolvewalletApplication in 3.092 seconds (JVM running for 3.687)
+""2021-05-10 09:02:56 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-05-10 09:03:31 - Credited Amount 200 into 8909646988, current balance is 600.0
+""2021-05-10 09:03:36 - Debited Amount 200 from 8909646988, current balance is 400.0
+""2021-05-10 09:03:46 - Created Wallet Succesfully for 8909646999
+""2021-05-10 09:08:45 - HikariPool-1 - Shutdown initiated...
+""2021-05-10 09:08:45 - HikariPool-1 - Shutdown completed.
+"
