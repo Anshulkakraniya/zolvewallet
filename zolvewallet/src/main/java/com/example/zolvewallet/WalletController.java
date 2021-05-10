@@ -60,9 +60,15 @@ public class WalletController {
 //        ResponseEntity errors = validationService.validate(result);
 //        if(errors != null) return errors;
 //        wallet.setId(id);
-        WalletEntity walletSaved = walletService.DebitWallet(id, debitAmount);
-        logger.warn("Debited Amount "+ debitAmount + " from " + walletSaved.getPhoneNumber() +", current balance is " + walletSaved.getCurrentBalance());
-        return new ResponseEntity<WalletEntity>(walletSaved, HttpStatus.OK);
+    	try {
+    		WalletEntity walletSaved = walletService.DebitWallet(id, debitAmount);
+            logger.warn("Debited Amount "+ debitAmount + " from " + walletSaved.getPhoneNumber() +", current balance is " + walletSaved.getCurrentBalance());
+            return new ResponseEntity<WalletEntity>(walletSaved, HttpStatus.OK);
+    	}
+        catch (Exception e){
+        	logger.warn(e.getMessage());
+        }
+    	return new ResponseEntity<String>("Please enter a valid amount, balance should be greater than 200", HttpStatus.OK);
     }
     
     @PutMapping("{id}/credit")
